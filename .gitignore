@@ -1,0 +1,58 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and test/lint caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter and local tooling state
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+
+# Local SQLite database and transient SQLite files
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+
+# Locally trained model weights, scalers, and run metadata
+deep_learning/saved_models/*
+!deep_learning/saved_models/.gitkeep
+
+# ML/runtime caches and generated logs
+.keras/
+keras_cache/
+wandb/
+lightning_logs/
+runs/
+logs/
+*.log
+
+# Temporary and operating system files
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
